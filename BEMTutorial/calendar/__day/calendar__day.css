@@ -1,0 +1,11 @@
+.calendar__day {
+  width: 100px;
+  height: 100px;
+  border-top: 10px solid #30ae46;
+  background-color: gray;
+  margin: 10px;
+  font-size: 20px;
+}
+.calendar__day:hover {
+  opacity: 0.75;
+}

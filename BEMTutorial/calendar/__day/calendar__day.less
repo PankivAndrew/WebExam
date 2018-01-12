@@ -1,0 +1,15 @@
+@import "../variables.less";
+
+.calendar{
+  &__day {
+    width: @day-width;
+    height: @day-height;
+    border-top: @day-height/10px solid #30ae46;
+    background-color: gray;
+    margin: @day-height/10;
+    font-size: @day-height/5;
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+}

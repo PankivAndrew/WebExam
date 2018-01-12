@@ -1,0 +1,25 @@
+.small-circle {
+  background-color: #4CAF50;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+}
+.big-circle {
+  background-color: #4CAF50;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+#section {
+  width: 200px;
+  height: 200px;
+}
+.list {
+  display: block;
+  background-color: black;
+  width: 30px;
+  height: 30px;
+}
+.list:hover {
+  background-color: white;
+}
